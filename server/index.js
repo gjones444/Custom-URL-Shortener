@@ -4,7 +4,7 @@ require("dotenv").config();
 const urlRouter = require('./routes/url.routes');
 const PORT = process.env.PORT || 8080;
 const DB_URL = process.env.DB_URL
-mongoose.connect("mongodb+srv://cluster0.skwep.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{
+mongoose.connect(DB_URL,{
 
     user: process.env.DB_USER, 
     
