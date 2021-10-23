@@ -2,9 +2,9 @@
   "name": "custom-url-shortener",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,5 +25,8 @@
     "nanoid": "^3.1.29",
     "shortid": "^2.2.16",
     "valid-url": "^1.0.9"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
